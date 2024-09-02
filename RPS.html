@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="RPS.css">
+    
+  </head>
+  <body>
+<div class="container">
+  <button class="btns" onclick="
+  compareMoves('rock');
+    "><img class="btnImgs" src="images/rock.png"></button>
+
+  <button class="btns" onclick="
+  compareMoves('paper');
+  "><img class="btnImgs" src="images/paper.png"></button>
+  
+  <button class="btns" onclick="
+ compareMoves('scissors');
+  "><img class="btnImgs" src="images/scissors.png"></button>
+
+
+<p class="result"></p>
+<p class="moves"></p>
+<p class="score"></p>
+
+
+  <button class="resetScore" onclick="
+  score.wins=0;
+  score.losses=0;
+  score.ties=0;
+  updateScore();
+  localStorage.removeItem('score');
+  ">reset score</button>
+
+  <button class="autoPlay" onclick="
+  autoPlay();
+  ">auto play</button>
+  </div>
+
+<script src="RPS.js">
+  
+</script>
+    
+  </body>
+</html>

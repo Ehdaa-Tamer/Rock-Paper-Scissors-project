@@ -1,0 +1,107 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+body{
+  background-image: linear-gradient(rgba(116, 237, 237, 0.632),rgba(52, 79, 176, 0.653),rgba(27, 27, 130, 0.812));
+  padding-bottom: 600px;
+  font-size: 30px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.container{
+  margin:  50px;
+}
+
+button{
+border-color: transparent;
+border-radius:110px ;
+background-color: rgba(41, 41, 150, 0.69);
+transition: 0.5s;
+border-style: solid;
+padding: 0px;
+
+}
+
+.btnImgs{
+  height: 130px;
+  width: 130px;
+  border-radius: 90px;
+ 
+}
+
+.result{
+  margin: 15px auto;
+  }
+
+  .moves{
+    margin: 15px auto;
+    }
+
+.score{
+margin: 15px auto;
+margin-bottom: 30px;
+}
+
+.btns{
+  background-color: rgba(27, 27, 130, 0.69);
+  height: 130px;
+  width: 130px;
+  
+}
+.btns:hover{
+  box-shadow:0px 0px 20px rgba(27, 27, 130, 0.812);
+}
+
+
+.resetScore{
+  padding: 15px;
+  color: white;
+  font-size: 20px;
+}
+.resetScore:hover{
+  padding: 20px;
+  cursor: pointer;
+}
+
+.autoPlay{
+  padding: 15px;
+  color: white;
+  font-size: 20px;
+}
+.autoPlay:hover{
+  padding: 20px;
+  cursor: pointer;
+}
+
+.movesImgs{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  
+}
